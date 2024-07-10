@@ -1,3 +1,8 @@
+back: https://nasa-api-explorer.vercel.app/ (git: https://github.com/ZachScroggins/nasa-api-explorer)
+front: https://spacingout.onrender.com/
+https://www.youtube.com/watch?v=5Gf6grFgoG8&ab_channel=Smoljames
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
