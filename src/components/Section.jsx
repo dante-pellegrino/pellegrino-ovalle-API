@@ -4,6 +4,7 @@ import InSight from './InSight';
 import EPIC from './EPIC';
 import ImageGallery from './ImageGallery';
 
+
 const Section = ({ id, title, description }) => {
   const [showContent, setShowContent] = useState(false);
 

@@ -5,7 +5,6 @@ import Hero from './components/Hero';
 import Section from './components/Section';
 import ImageGallery from './components/ImageGallery';
 
-
 const App = () => {
   return (
     <div>

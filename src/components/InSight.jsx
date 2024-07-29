@@ -5,6 +5,7 @@ const InSight = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
+  
   useEffect(() => {
     const fetchWeatherData = async () => {
       try {

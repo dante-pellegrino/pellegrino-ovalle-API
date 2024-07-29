@@ -33,6 +33,7 @@ const EPIC = () => {
     autoplaySpeed: 3000,
   };
 
+  
   return (
     <div style={epicStyle}>
       <h1 style={titleStyle}>Imágenes de hoy de la Tierra</h1>

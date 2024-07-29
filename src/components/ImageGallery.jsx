@@ -4,6 +4,7 @@ import Subsection from './Subsection';
 const ImageGallery = () => {
   const topics = ['Solar System', 'Supernova', 'Aeronautics', 'Missions', 'Universe', 'Humans in Space', 'Climate Change', 'Science News', 'Technology'];
 
+  
   return (
     <div className='imageGallery'>
       <h1>Últimas noticias e imágenes</h1>
