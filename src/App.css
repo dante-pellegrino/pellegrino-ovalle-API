@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+
+
+html{
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p{
+  color: rgb(158, 158, 158);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h1{
+  color: #fff;
+  text-shadow: 2px 8px 30px #705dcf;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;    font-size: x-small;
   }
-}
+  
+  .gallery-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #705DCF;
+    padding: 10px;
+    width: 20%;
+    box-sizing: border-box;
+  }
+  
+  .gallery-item img {
+    height: 150px;
+    max-width: 100%;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-weight: 800;
+    padding: 10px 20px;
+    border: solid white 2px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #705dcf;
+    font-size: x-large;
+  }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.verMas{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 100%;
+}
+
+.verMas button{
+  font-size: medium;
+}
+  
+button:hover{
+    transition: background-color 0.3s ease;
+    background-color: #3e2d92;
+  }
+
+.navOptions{
+    font-family: "Raleway", sans-serif;
+    color: #705DCF;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .navOptions:hover{
+    color: white;
+    transition: color 0.3s ease;
+  }
+
+section{
+    font-size: large;
+    font-family: "Raleway", sans-serif;
+}
+
+.imageGallery{
+  width: 100%;
+  padding-Top: 110px;
+  padding-Bottom: 110px;
+  background-Color: black;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  text-Align: center;
+  border-Bottom: 1px solid white;
+  font-family: "Raleway", sans-serif;
 }
