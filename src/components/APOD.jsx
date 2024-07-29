@@ -47,4 +47,3 @@ const imageStyle = {
 };
 
 export default APOD;
-asdas
